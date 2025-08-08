@@ -65,9 +65,7 @@
 - Owner cards with photos and descriptions
 - Professional layout showcasing team leadership
 
-### News Flash
-- Animated banner: "Team Jersey Reveal Event Coming Soon"
-- Eye-catching fire animations and effects
+
 
 ### Footer
 - Simple text: "© Fire Falcons — Team Introduction"
@@ -118,7 +116,6 @@ fire-falcons-react/
 ├── src/
 │   ├── components/         # React components
 │   │   ├── Header/         # Navigation header
-│   │   ├── NewsFlash/      # Breaking news banner
 │   │   ├── Intro/          # Welcome section with "Born to Win"
 │   │   ├── TeamSection/    # Player cards grid (13 players)
 │   │   ├── OwnersSection/  # Meet Our Owners section
@@ -251,7 +248,7 @@ The Fire Falcons website is now fully functional with all features from the orig
 - **New Tagline**: Changed to "Born to Win" with animated graphic effects
 - **Enhanced Fire Animations**: More dynamic fire effects on page load
 - **Full Image Display**: Fixed image CSS to show complete images without cropping
-- **Flashing News Banner**: "Team Jersey Reveal Event Coming Soon"
+
 
 **🧹 Streamlined Content:**
 - **Removed**: Performance stats section, Cricket in Motion section

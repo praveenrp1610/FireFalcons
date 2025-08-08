@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Header from './components/Header/Header';
-import NewsFlash from './components/NewsFlash/NewsFlash';
 import Intro from './components/Intro/Intro';
 import TeamSection from './components/TeamSection/TeamSection';
 import OwnersSection from './components/OwnersSection/OwnersSection';
@@ -16,7 +15,6 @@ function App() {
       transition={{ duration: 0.8 }}
     >
       <Header />
-      <NewsFlash />
       <main>
         <Intro />
         <TeamSection />
