@@ -92,7 +92,7 @@ export const teamStats = {
   losses: 0,
   ties: 0,
   winPercentage: 0,
-  established: "2024",
+  established: "2025",
   homeGround: "Fire Stadium"
 };
 

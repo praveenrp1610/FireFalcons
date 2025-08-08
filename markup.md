@@ -225,6 +225,6 @@ The Fire Falcons website is now fully functional with all features from the orig
 
 ### 📊 **Recent Updates:**
 - **Stats Reset**: All player and team statistics have been reset to 0 for the new season
-- **Fresh Start**: Team established year updated to 2024
+- **Fresh Start**: Team established year updated to 2025
 - **Ready for Action**: Players can now build their stats from scratch as the season progresses
 
