@@ -35,7 +35,7 @@
 
 .footer-main {
   display: grid;
-  grid-template-columns: 1fr 300px 300px;
+  grid-template-columns: 1fr 300px;
   gap: 3rem;
   margin-bottom: 3rem;
 }
@@ -270,13 +270,8 @@
 /* Responsive Design */
 @media (max-width: 1024px) {
   .footer-main {
-    grid-template-columns: 1fr 250px;
+    grid-template-columns: 1fr;
     gap: 2rem;
-  }
-  
-  .footer-main .footer-section:last-child {
-    grid-column: 1 / -1;
-    max-width: 600px;
   }
 }
 

@@ -19,13 +19,24 @@
 
 ## Team mapping (players with roles)
 
+- **Foysal** → All-rounder 
+- **Arvin** → All-rounder
+- **Arun** → All-rounder
+- **Melbin** → All-rounder
+- **Vishnu** → All-rounder
+- **Anumon** → All-rounder
 - **Ashwin** → Opening Batsman
-- **Jaber** → Fast Bowler  
+- **Jaber** → All-rounder 
 - **Joseph** → All-rounder
-- **Praveen** → Wicketkeeper
-- **Shibu** → Spin Bowler
-- **Titus** → Middle Order Batsman
+- **Praveen** → All-rounder
+- **Shibu** → All-rounder
+- **Titus** → All-rounder
 - **Tjith** → All-rounder
+
+## Team Owners
+
+- **Joyalettan** → Team Owner & Founder
+- **Nibin** → Team Owner & Co-founder
 
 ---
 
@@ -44,13 +55,19 @@
 - Grid layout showing member cards.
 - Each card contains:
   - Player photo (from assets)
-  - Name (Ashwin, Jaber, Joseph, Praveen, Shibu, Titus, Tjith)
+  - Name (13 players total)
   - Role (as mapped above)
+  - Full image display without cropping
   - Hover effects for interactivity
 
-### Dynamic section
-- Placeholder for 3D images of players.
-- Placeholder for cricket animations (e.g., spinning ball, swinging bat).
+### Owners section
+- "Meet Our Owners" section featuring Joyalettan and Nibin
+- Owner cards with photos and descriptions
+- Professional layout showcasing team leadership
+
+### News Flash
+- Animated banner: "Team Jersey Reveal Event Coming Soon"
+- Eye-catching fire animations and effects
 
 ### Footer
 - Simple text: "© Fire Falcons — Team Introduction"
@@ -101,10 +118,11 @@ fire-falcons-react/
 ├── src/
 │   ├── components/         # React components
 │   │   ├── Header/         # Navigation header
-│   │   ├── Intro/          # Welcome section
-│   │   ├── TeamSection/    # Player cards grid
-│   │   ├── DynamicSection/ # Cricket animations & stats
-│   │   └── Footer/         # Footer component
+│   │   ├── NewsFlash/      # Breaking news banner
+│   │   ├── Intro/          # Welcome section with "Born to Win"
+│   │   ├── TeamSection/    # Player cards grid (13 players)
+│   │   ├── OwnersSection/  # Meet Our Owners section
+│   │   └── Footer/         # Simplified footer component
 │   ├── assets/            # Images imported as modules (logo.png, *.jpg)
 │   ├── data/              # Team data and configuration
 │   ├── App.jsx           # Main app component
@@ -222,11 +240,27 @@ npm run preview
 
 The Fire Falcons website is now fully functional with all features from the original markup specification implemented and enhanced with modern React capabilities! 🔥🏏
 
-### 📊 **Recent Updates:**
-- **Stats Reset**: All player and team statistics have been reset to 0 for the new season
-- **Fresh Start**: Team established year updated to 2025
-- **Mobile Layout Fix**: Improved grid layout and responsive design for proper mobile display
-- **Asset Import Fix**: Moved images to src/assets and imported them as modules for proper Vite asset handling and reliable Vercel deployment
-- **Image Fix**: Enhanced image loading with fallback support and better mobile compatibility
-- **Ready for Action**: Players can now build their stats from scratch as the season progresses
+### 📊 **Major Updates & Enhancements:**
+
+**🔥 Team Overhaul:**
+- **New Team Roster**: Updated from 7 to 13 players with fresh talent
+- **New Owners Section**: Added "Meet Our Owners" featuring Joyalettan and Nibin
+- **Role Updates**: Most players now designated as All-rounders (except Ashwin as Opening Batsman)
+
+**🎨 Visual & UX Improvements:**
+- **New Tagline**: Changed to "Born to Win" with animated graphic effects
+- **Enhanced Fire Animations**: More dynamic fire effects on page load
+- **Full Image Display**: Fixed image CSS to show complete images without cropping
+- **Flashing News Banner**: "Team Jersey Reveal Event Coming Soon"
+
+**🧹 Streamlined Content:**
+- **Removed**: Performance stats section, Cricket in Motion section
+- **Removed**: Team achievements, member count, win rate displays
+- **Removed**: Fire stadium references and "Get in touch" section
+- **Simplified**: Footer with essential information only
+
+**⚛️ Technical Enhancements:**
+- **Asset Import Fix**: All images properly imported as ES modules for Vercel compatibility
+- **Mobile Optimization**: Enhanced responsive design and layout fixes
+- **Performance**: Optimized build with proper asset bundling and content hashing
 

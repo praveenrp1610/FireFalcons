@@ -45,14 +45,28 @@ const Intro = () => {
             <h1 className="intro-title">
               Welcome to the <span className="highlight">Fire Falcons</span>
             </h1>
-            <p className="intro-subtitle">
-              Where Cricket Meets Passion, Excellence, and Team Spirit
-            </p>
+            <motion.p 
+              className="intro-subtitle"
+              animate={{ 
+                scale: [1, 1.05, 1],
+                textShadow: [
+                  "0 0 10px rgba(255, 69, 0, 0.5)",
+                  "0 0 20px rgba(255, 215, 0, 0.8)",
+                  "0 0 10px rgba(255, 69, 0, 0.5)"
+                ]
+              }}
+              transition={{ 
+                duration: 2,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
+            >
+              Born to Win
+            </motion.p>
             <p className="intro-description">
-              Meet our incredible team of seven talented cricket players, each bringing their unique 
-              skills and expertise to make the Fire Falcons a formidable force in cricket. From 
-              aggressive opening batsmen to crafty spin bowlers, our team represents the perfect 
-              blend of talent, strategy, and sportsmanship.
+              Meet our incredible team of thirteen talented cricket players, each bringing their unique 
+              skills and expertise to make the Fire Falcons a formidable force in cricket. Our team 
+              represents the perfect blend of talent, strategy, and sportsmanship.
             </p>
             
             <motion.div 
@@ -69,57 +83,16 @@ const Intro = () => {
               </motion.button>
               <motion.button
                 className="btn btn-outline"
-                onClick={() => document.getElementById('stats').scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('owners').scrollIntoView({ behavior: 'smooth' })}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                View Statistics
+                Meet Our Owners
               </motion.button>
             </motion.div>
           </motion.div>
 
-          <motion.div 
-            className="intro-stats"
-            variants={itemVariants}
-          >
-            <div className="stats-grid">
-              <motion.div 
-                className="stat-card"
-                whileHover={{ scale: 1.05, rotateY: 5 }}
-                transition={{ type: "spring", stiffness: 300 }}
-              >
-                <div className="stat-number">{teamStats.totalMatches}</div>
-                <div className="stat-label">Total Matches</div>
-              </motion.div>
-              
-              <motion.div 
-                className="stat-card"
-                whileHover={{ scale: 1.05, rotateY: 5 }}
-                transition={{ type: "spring", stiffness: 300 }}
-              >
-                <div className="stat-number">{teamStats.wins}</div>
-                <div className="stat-label">Victories</div>
-              </motion.div>
-              
-              <motion.div 
-                className="stat-card"
-                whileHover={{ scale: 1.05, rotateY: 5 }}
-                transition={{ type: "spring", stiffness: 300 }}
-              >
-                <div className="stat-number">{teamStats.winPercentage}%</div>
-                <div className="stat-label">Win Rate</div>
-              </motion.div>
-              
-              <motion.div 
-                className="stat-card"
-                whileHover={{ scale: 1.05, rotateY: 5 }}
-                transition={{ type: "spring", stiffness: 300 }}
-              >
-                <div className="stat-number">{teamStats.established}</div>
-                <div className="stat-label">Established</div>
-              </motion.div>
-            </div>
-          </motion.div>
+
         </motion.div>
       </div>
       

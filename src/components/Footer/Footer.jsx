@@ -66,27 +66,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="footer-section">
-              <h4>Quick Stats</h4>
-              <div className="quick-stats">
-                <div className="quick-stat">
-                  <span className="stat-value">{teamStats.established}</span>
-                  <span className="stat-label">Established</span>
-                </div>
-                <div className="quick-stat">
-                  <span className="stat-value">7</span>
-                  <span className="stat-label">Team Members</span>
-                </div>
-                <div className="quick-stat">
-                  <span className="stat-value">{teamStats.winPercentage}%</span>
-                  <span className="stat-label">Win Rate</span>
-                </div>
-                <div className="quick-stat">
-                  <span className="stat-value">{teamStats.homeGround}</span>
-                  <span className="stat-label">Home Ground</span>
-                </div>
-              </div>
-            </div>
+
 
             <div className="footer-section">
               <h4>Connect With Us</h4>
@@ -129,21 +109,7 @@ const Footer = () => {
                 </motion.a>
               </div>
               
-              <div className="contact-info">
-                <h5>Get In Touch</h5>
-                <div className="contact-item">
-                  <span className="contact-icon">📧</span>
-                  <span>contact@firefalcons.com</span>
-                </div>
-                <div className="contact-item">
-                  <span className="contact-icon">📱</span>
-                  <span>+1 (555) 123-4567</span>
-                </div>
-                <div className="contact-item">
-                  <span className="contact-icon">📍</span>
-                  <span>Fire Stadium, Cricket City</span>
-                </div>
-              </div>
+
             </div>
           </motion.div>
 
@@ -152,7 +118,7 @@ const Footer = () => {
             <div className="footer-bottom-content">
               <p className="copyright">
                 © {currentYear} Fire Falcons — Team Introduction. 
-                Built with passion for cricket and excellence in web development.
+                Built with passion for cricket by PP.
               </p>
               <div className="footer-links">
                 <motion.button
