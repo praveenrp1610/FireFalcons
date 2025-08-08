@@ -71,6 +71,13 @@ const TeamSection = () => {
                       src={player.image}
                       alt={player.name}
                       className="player-image"
+                      onError={(e) => {
+                        console.error(`Failed to load image for ${player.name}:`, player.image);
+                        e.target.style.display = 'none';
+                      }}
+                      onLoad={(e) => {
+                        console.log(`Successfully loaded image for ${player.name}`);
+                      }}
                     />
                     <div className="image-overlay">
                       <div className="overlay-content">

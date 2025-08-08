@@ -1,10 +1,15 @@
 // Fire Falcons team data and player mapping
+// Import images from public folder
+const getImagePath = (imageName) => {
+  return `${import.meta.env.BASE_URL}${imageName}`;
+};
+
 export const teamMembers = [
   {
     id: 1,
     name: "Ashwin",
     role: "Opening Batsman",
-    image: "/Ashwin.JPG",
+    image: getImagePath("Ashwin.JPG"),
     description: "Aggressive opening batsman with excellent timing and shot selection",
     stats: {
       matches: 0,
@@ -16,7 +21,7 @@ export const teamMembers = [
     id: 2,
     name: "Jaber",
     role: "Fast Bowler",
-    image: "/Jaber.JPG",
+    image: getImagePath("Jaber.JPG"),
     description: "Express pace bowler with deadly yorkers and swing bowling expertise",
     stats: {
       matches: 0,
@@ -28,7 +33,7 @@ export const teamMembers = [
     id: 3,
     name: "Joseph",
     role: "All-rounder",
-    image: "/Joseph.JPG",
+    image: getImagePath("Joseph.JPG"),
     description: "Dynamic all-rounder contributing with both bat and ball",
     stats: {
       matches: 0,
@@ -40,7 +45,7 @@ export const teamMembers = [
     id: 4,
     name: "Praveen",
     role: "Wicketkeeper",
-    image: "/Praveen.JPG",
+    image: getImagePath("Praveen.JPG"),
     description: "Safe hands behind the stumps with lightning-fast reflexes",
     stats: {
       matches: 0,
@@ -52,7 +57,7 @@ export const teamMembers = [
     id: 5,
     name: "Shibu",
     role: "Spin Bowler",
-    image: "/Shibu.JPG",
+    image: getImagePath("Shibu.JPG"),
     description: "Crafty spinner who can turn the match with magical deliveries",
     stats: {
       matches: 0,
@@ -64,7 +69,7 @@ export const teamMembers = [
     id: 6,
     name: "Titus",
     role: "Middle Order Batsman",
-    image: "/Titus.JPG",
+    image: getImagePath("Titus.JPG"),
     description: "Reliable middle-order batsman who anchors the innings",
     stats: {
       matches: 0,
@@ -76,7 +81,7 @@ export const teamMembers = [
     id: 7,
     name: "Tjith",
     role: "All-rounder",
-    image: "/Tjith.JPG",
+    image: getImagePath("Tjith.JPG"),
     description: "Versatile all-rounder bringing balance to the team composition",
     stats: {
       matches: 0,
