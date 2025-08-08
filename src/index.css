@@ -31,15 +31,30 @@ body {
   position: relative;
 }
 
-/* Blurred logo background watermark */
+/* Large visible logo watermark */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: radial-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('./assets/logo.png') center/40% no-repeat;
-  filter: blur(40px) opacity(0.08);
+  background: radial-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)), url('./assets/logo.png') center/60% no-repeat;
+  filter: blur(8px) opacity(0.25);
   z-index: -1;
   pointer-events: none;
+}
+
+/* Mobile watermark adjustments */
+@media (max-width: 768px) {
+  body::before {
+    background-size: 80%;
+    filter: blur(6px) opacity(0.2);
+  }
+}
+
+@media (max-width: 480px) {
+  body::before {
+    background-size: 90%;
+    filter: blur(4px) opacity(0.18);
+  }
 }
 
 .App {
