@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-// Logo is now in public folder
+import logo from '../../assets/logo.png';
 import './Header.css';
 
 const Header = () => {
@@ -39,7 +39,7 @@ const Header = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <img src="/logo.png" alt="Fire Falcons Logo" className="logo" />
+            <img src={logo} alt="Fire Falcons Logo" className="logo" />
             <h1 className="team-title">Fire Falcons</h1>
           </motion.div>
 

@@ -1,10 +1,19 @@
 // Fire Falcons team data and player mapping
+// Import images as modules for proper Vite asset handling
+import AshwinImg from '../assets/Ashwin.jpg';
+import JaberImg from '../assets/Jaber.jpg';
+import JosephImg from '../assets/Joseph.jpg';
+import PraveenImg from '../assets/Praveen.jpg';
+import ShibuImg from '../assets/Shibu.jpg';
+import TitusImg from '../assets/Titus.jpg';
+import TjithImg from '../assets/Tjith.jpg';
+
 export const teamMembers = [
   {
     id: 1,
     name: "Ashwin",
     role: "Opening Batsman",
-    image: "/Ashwin.jpg",
+    image: AshwinImg,
     description: "Aggressive opening batsman with excellent timing and shot selection",
     stats: {
       matches: 0,
@@ -16,7 +25,7 @@ export const teamMembers = [
     id: 2,
     name: "Jaber",
     role: "Fast Bowler",
-    image: "/Jaber.jpg",
+    image: JaberImg,
     description: "Express pace bowler with deadly yorkers and swing bowling expertise",
     stats: {
       matches: 0,
@@ -28,7 +37,7 @@ export const teamMembers = [
     id: 3,
     name: "Joseph",
     role: "All-rounder",
-    image: "/Joseph.jpg",
+    image: JosephImg,
     description: "Dynamic all-rounder contributing with both bat and ball",
     stats: {
       matches: 0,
@@ -40,7 +49,7 @@ export const teamMembers = [
     id: 4,
     name: "Praveen",
     role: "Wicketkeeper",
-    image: "/Praveen.jpg",
+    image: PraveenImg,
     description: "Safe hands behind the stumps with lightning-fast reflexes",
     stats: {
       matches: 0,
@@ -52,7 +61,7 @@ export const teamMembers = [
     id: 5,
     name: "Shibu",
     role: "Spin Bowler",
-    image: "/Shibu.jpg",
+    image: ShibuImg,
     description: "Crafty spinner who can turn the match with magical deliveries",
     stats: {
       matches: 0,
@@ -64,7 +73,7 @@ export const teamMembers = [
     id: 6,
     name: "Titus",
     role: "Middle Order Batsman",
-    image: "/Titus.jpg",
+    image: TitusImg,
     description: "Reliable middle-order batsman who anchors the innings",
     stats: {
       matches: 0,
@@ -76,7 +85,7 @@ export const teamMembers = [
     id: 7,
     name: "Tjith",
     role: "All-rounder",
-    image: "/Tjith.jpg",
+    image: TjithImg,
     description: "Versatile all-rounder bringing balance to the team composition",
     stats: {
       matches: 0,

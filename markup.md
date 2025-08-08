@@ -97,10 +97,7 @@ The Fire Falcons website has been successfully converted to a modern React appli
 ```
 fire-falcons-react/
 ├── public/
-│   ├── index.html          # Main HTML template
-│   ├── favicon.ico         # Team logo as favicon
-│   ├── logo.png           # Team logo
-│   └── *.JPG              # Player photos (Ashwin, Jaber, Joseph, etc.)
+│   └── favicon.ico         # Team logo as favicon
 ├── src/
 │   ├── components/         # React components
 │   │   ├── Header/         # Navigation header
@@ -108,6 +105,7 @@ fire-falcons-react/
 │   │   ├── TeamSection/    # Player cards grid
 │   │   ├── DynamicSection/ # Cricket animations & stats
 │   │   └── Footer/         # Footer component
+│   ├── assets/            # Images imported as modules (logo.png, *.jpg)
 │   ├── data/              # Team data and configuration
 │   ├── App.jsx           # Main app component
 │   ├── main.jsx          # React entry point
@@ -228,7 +226,7 @@ The Fire Falcons website is now fully functional with all features from the orig
 - **Stats Reset**: All player and team statistics have been reset to 0 for the new season
 - **Fresh Start**: Team established year updated to 2025
 - **Mobile Layout Fix**: Improved grid layout and responsive design for proper mobile display
-- **Vercel Config Fix**: Simplified deployment configuration to let Vercel auto-handle static assets and SPA routing
+- **Asset Import Fix**: Moved images to src/assets and imported them as modules for proper Vite asset handling and reliable Vercel deployment
 - **Image Fix**: Enhanced image loading with fallback support and better mobile compatibility
 - **Ready for Action**: Players can now build their stats from scratch as the season progresses
 
