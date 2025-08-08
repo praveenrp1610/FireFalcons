@@ -228,7 +228,7 @@ The Fire Falcons website is now fully functional with all features from the orig
 - **Stats Reset**: All player and team statistics have been reset to 0 for the new season
 - **Fresh Start**: Team established year updated to 2025
 - **Mobile Layout Fix**: Improved grid layout and responsive design for proper mobile display
-- **Vercel Fix**: Simplified image paths and deployment configuration for Vercel compatibility
+- **Vercel 404 Fix**: Converted image extensions to lowercase (.jpg) and updated rewrite rules for proper static asset serving
 - **Image Fix**: Enhanced image loading with fallback support and better mobile compatibility
 - **Ready for Action**: Players can now build their stats from scratch as the season progresses
 

@@ -4,7 +4,7 @@ export const teamMembers = [
     id: 1,
     name: "Ashwin",
     role: "Opening Batsman",
-    image: "/Ashwin.JPG",
+    image: "/Ashwin.jpg",
     description: "Aggressive opening batsman with excellent timing and shot selection",
     stats: {
       matches: 0,
@@ -16,7 +16,7 @@ export const teamMembers = [
     id: 2,
     name: "Jaber",
     role: "Fast Bowler",
-    image: "/Jaber.JPG",
+    image: "/Jaber.jpg",
     description: "Express pace bowler with deadly yorkers and swing bowling expertise",
     stats: {
       matches: 0,
@@ -28,7 +28,7 @@ export const teamMembers = [
     id: 3,
     name: "Joseph",
     role: "All-rounder",
-    image: "/Joseph.JPG",
+    image: "/Joseph.jpg",
     description: "Dynamic all-rounder contributing with both bat and ball",
     stats: {
       matches: 0,
@@ -40,7 +40,7 @@ export const teamMembers = [
     id: 4,
     name: "Praveen",
     role: "Wicketkeeper",
-    image: "/Praveen.JPG",
+    image: "/Praveen.jpg",
     description: "Safe hands behind the stumps with lightning-fast reflexes",
     stats: {
       matches: 0,
@@ -52,7 +52,7 @@ export const teamMembers = [
     id: 5,
     name: "Shibu",
     role: "Spin Bowler",
-    image: "/Shibu.JPG",
+    image: "/Shibu.jpg",
     description: "Crafty spinner who can turn the match with magical deliveries",
     stats: {
       matches: 0,
@@ -64,7 +64,7 @@ export const teamMembers = [
     id: 6,
     name: "Titus",
     role: "Middle Order Batsman",
-    image: "/Titus.JPG",
+    image: "/Titus.jpg",
     description: "Reliable middle-order batsman who anchors the innings",
     stats: {
       matches: 0,
@@ -76,7 +76,7 @@ export const teamMembers = [
     id: 7,
     name: "Tjith",
     role: "All-rounder",
-    image: "/Tjith.JPG",
+    image: "/Tjith.jpg",
     description: "Versatile all-rounder bringing balance to the team composition",
     stats: {
       matches: 0,
