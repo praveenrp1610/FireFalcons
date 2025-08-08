@@ -74,6 +74,11 @@ const TeamSection = () => {
                       onError={(e) => {
                         console.error(`Failed to load image for ${player.name}:`, player.image);
                         e.target.style.display = 'none';
+                        // Show fallback text
+                        const fallback = document.createElement('div');
+                        fallback.className = 'image-fallback';
+                        fallback.textContent = player.name;
+                        e.target.parentNode.appendChild(fallback);
                       }}
                       onLoad={(e) => {
                         console.log(`Successfully loaded image for ${player.name}`);
