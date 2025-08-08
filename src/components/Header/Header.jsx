@@ -39,7 +39,7 @@ const Header = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Fire Falcons Logo" className="logo" />
+            <img src="/logo.png" alt="Fire Falcons Logo" className="logo" />
             <h1 className="team-title">Fire Falcons</h1>
           </motion.div>
 
