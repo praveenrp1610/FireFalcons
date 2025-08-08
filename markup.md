@@ -81,7 +81,7 @@
   - Cricket-themed animations
 - Accessibility: Include alt text for all images.
 - Performance: Optimize photo file sizes before attaching.
-- Branding: Enlarged header logo for stronger visual identity and a large, visible logo watermark used as a global background to reinforce brand presence across all devices while maintaining content readability.
+- Branding: Enlarged header logo for stronger visual identity and a clear, crisp logo watermark used as a global background to reinforce brand presence across all devices while maintaining excellent content readability.
 
 ---
 
