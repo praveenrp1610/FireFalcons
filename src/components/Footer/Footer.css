@@ -1,0 +1,354 @@
+.footer {
+  background: linear-gradient(135deg, var(--darker-bg) 0%, #000000 100%);
+  position: relative;
+  overflow: hidden;
+  padding: 60px 0 20px;
+  border-top: 1px solid rgba(255, 69, 0, 0.2);
+}
+
+.footer-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.footer-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(255, 69, 0, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(255, 215, 0, 0.1) 0%, transparent 50%),
+    linear-gradient(45deg, transparent 48%, rgba(255, 69, 0, 0.05) 49%, rgba(255, 69, 0, 0.05) 51%, transparent 52%);
+  opacity: 0.3;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 1;
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: 1fr 300px 300px;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer-section h3 {
+  font-size: 2rem;
+  background: linear-gradient(45deg, var(--fire-orange), var(--gold));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.footer-section h4 {
+  color: var(--fire-orange);
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.footer-section h5 {
+  color: var(--gold);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.footer-section p {
+  color: var(--text-gray);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Team Highlights */
+.team-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--text-gray);
+  font-size: 0.95rem;
+}
+
+.highlight-icon {
+  font-size: 1.2rem;
+}
+
+/* Quick Stats */
+.quick-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.quick-stat {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 69, 0, 0.2);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.quick-stat:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+
+.stat-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, var(--fire-orange), var(--gold));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.3rem;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: var(--text-gray);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Social Links */
+.social-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 69, 0, 0.2);
+  border-radius: 25px;
+  color: var(--text-gray);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  justify-content: center;
+}
+
+.social-link:hover {
+  background: rgba(255, 69, 0, 0.1);
+  border-color: var(--gold);
+  color: var(--fire-orange);
+  transform: translateY(-2px);
+}
+
+/* Contact Info */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--text-gray);
+  font-size: 0.9rem;
+}
+
+.contact-icon {
+  font-size: 1.1rem;
+  width: 20px;
+  text-align: center;
+}
+
+/* Footer Bottom */
+.footer-divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 69, 0, 0.5) 20%,
+    rgba(255, 215, 0, 0.5) 50%,
+    rgba(255, 69, 0, 0.5) 80%,
+    transparent 100%
+  );
+  margin-bottom: 2rem;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.copyright {
+  color: var(--text-gray);
+  font-size: 0.9rem;
+  margin: 0;
+  flex: 1;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-link {
+  background: none;
+  border: 1px solid rgba(255, 69, 0, 0.3);
+  color: var(--fire-orange);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  background: rgba(255, 69, 0, 0.1);
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+/* Fire Particles */
+.fire-particles {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.fire-particle {
+  position: absolute;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(to top, var(--fire-orange), var(--gold), transparent);
+  border-radius: 50%;
+}
+
+.fire-particle:nth-child(1) {
+  left: 20%;
+  bottom: 0;
+}
+
+.fire-particle:nth-child(2) {
+  left: 50%;
+  bottom: 0;
+}
+
+.fire-particle:nth-child(3) {
+  left: 80%;
+  bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .footer-main {
+    grid-template-columns: 1fr 250px;
+    gap: 2rem;
+  }
+  
+  .footer-main .footer-section:last-child {
+    grid-column: 1 / -1;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 0 20px;
+  }
+  
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.8rem;
+  }
+  
+  .footer-section h4 {
+    font-size: 1.2rem;
+  }
+  
+  .quick-stats {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+  
+  .social-links {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-bottom-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-section h3 {
+    font-size: 1.5rem;
+  }
+  
+  .team-highlights {
+    gap: 0.6rem;
+  }
+  
+  .highlight-item {
+    font-size: 0.9rem;
+  }
+  
+  .quick-stat {
+    padding: 0.8rem;
+  }
+  
+  .stat-value {
+    font-size: 1.3rem;
+  }
+  
+  .social-link {
+    padding: 0.6rem;
+    font-size: 0.85rem;
+  }
+  
+  .contact-item {
+    font-size: 0.85rem;
+  }
+  
+  .copyright {
+    font-size: 0.8rem;
+  }
+}

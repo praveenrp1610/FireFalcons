@@ -1,0 +1,50 @@
+{
+  "name": "fire-falcons-react",
+  "version": "1.0.0",
+  "description": "Fire Falcons Cricket Team Official Website - React App with Vite",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "serve -s dist",
+    "deploy": "npm run build && vercel --prod"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^10.16.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.1.1",
+    "vite": "^5.0.0",
+    "serve": "^14.2.1"
+  },
+  "keywords": [
+    "cricket",
+    "team",
+    "fire-falcons",
+    "sports",
+    "website",
+    "react",
+    "vite",
+    "interactive",
+    "responsive"
+  ],
+  "author": "Fire Falcons Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fire-falcons/react-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fire-falcons/react-website/issues"
+  },
+  "homepage": "https://fire-falcons-react.vercel.app"
+}
