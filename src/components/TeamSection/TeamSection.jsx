@@ -46,7 +46,7 @@ const TeamSection = () => {
           viewport={{ once: true }}
         >
           <h2>Meet Our Champions</h2>
-          <p>Seven talented players, one unstoppable team</p>
+          <p>Thirteen talented players, one unstoppable team</p>
         </motion.div>
 
         <motion.div
