@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Header from './components/Header/Header';
 import Intro from './components/Intro/Intro';
+import IconPlayer from './components/IconPlayer/IconPlayer';
 import TeamSection from './components/TeamSection/TeamSection';
 import OwnersSection from './components/OwnersSection/OwnersSection';
 import Footer from './components/Footer/Footer';
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <main>
         <Intro />
+        <IconPlayer />
         <TeamSection />
         <OwnersSection />
       </main>

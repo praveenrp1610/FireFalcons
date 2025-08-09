@@ -13,6 +13,7 @@ import PraveenImg from '../assets/Praveen.jpg';
 import ShibuImg from '../assets/Shibu.jpg';
 import TitusImg from '../assets/Titus.jpg';
 import TjithImg from '../assets/Tjith.jpg';
+import AnoopImg from '../assets/Anoop.jpg';
 
 // Import owner images
 import JoyalettanImg from '../assets/Joyalettan.jpg';
@@ -176,6 +177,21 @@ export const teamMembers = [
     }
   }
 ];
+
+export const iconPlayer = {
+  id: 1,
+  name: "Anoop",
+  role: "Icon Player",
+  image: AnoopImg,
+  description: "Anoop is an allrounder, who can hit any ball to six and bowl at an express speed",
+  stats: {
+    matches: 0,
+    runs: 0,
+    wickets: 0,
+    sixes: 0,
+    bowlingSpeed: "Express"
+  }
+};
 
 export const teamOwners = [
   {
